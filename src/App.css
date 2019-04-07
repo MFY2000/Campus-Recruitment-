@@ -1,0 +1,388 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 0.9s linear;
+  height: 40vmin;
+}
+ 
+.right{
+  float: left;
+  
+}
+
+.inline{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  font-size:small;
+  float: left;
+}
+
+.inlineBlock{
+  display: flex;
+  flex-direction: row;
+  /* justify-content:space-between; */
+  /* font-size:small;
+  float: left; */
+}
+
+.black{
+  background-color: #282c34;
+}
+
+.Width{
+  width: 100% !important
+}
+
+/* .left{
+padding-left:5%;
+margin-left:5% 
+} */
+
+.small{
+  height:40px;  
+   position: absolute;
+  right: 90px ;
+  top: 2.5%;
+}
+.smail{
+  border-radius:100% ;
+  height: 40px;
+}
+.smaller{
+  height:0px;  
+   /* position: absolute;
+  right: 25px ;
+  top: 1.5%; */
+}
+.img{
+  border-radius:900px;
+  height:50px; 
+  float: left;
+}
+
+.imps{
+  border-radius:900px;
+  height:250px; 
+  /* align-items: center; */
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  /* box-shadow:  */
+
+}
+.ha{
+  font-size: x-large ;
+  line-height:50px;
+  margin-top: 100px
+}
+
+.displayInline{
+  /* display: inline-block !important; */
+  /* background-color: red; */
+  padding: 0%;
+  margin: 0%;
+  /* width: 100%; */
+  
+}
+
+.haf{
+float: right;
+margin: 0px;
+padding: 0px;
+  /* position: absolute;
+  right: 10px; */
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.ceter{
+text-align-last: center !important;
+display: flex !important;
+justify-content: center !important;
+align-items: center !important;
+align-self: center !important;
+padding-right: -885px;
+flex-direction: column !important;
+justify-content: space-around !important ;
+}
+*{
+  text-align-last: center !important;
+  line-height: normal
+}
+
+.leftSide{
+  border-radius : 100%; 
+  width:60px;
+  height:60px;
+  border: 1px solid black;
+}
+.leftSides{
+  position: absolute;
+  right: 30px ;
+  top: 1.5%;
+}
+.rightSide{
+  color:black;
+  font-size:10%;
+  text-align: center
+}
+body, html {
+  height: 100%;
+}
+
+td{
+  padding: 2% !important;
+}
+.height{
+  height: 100% !important;
+  text-align-last: center !important
+}
+.width20{
+  width: 52%
+}
+.little{
+  padding: 2%;
+}
+
+body {
+  font-family: Verdana, Tahoma, sans-serif;
+  overflow-y: scroll;
+  background: url('./image/images.jpg') fixed;
+
+}
+
+th,td{
+  margin: 10%;
+  max-width: fit-content;
+
+}
+
+.Exter{
+   background-color: white !important;
+    padding: 3%;
+   /*  Full height
+  height: 100%; 
+  width: 100%;
+ */
+  /* Center and scale the image nicely */
+  /* background-position: center; 
+  background-repeat: no-repeat;
+  background-size: auto; */
+
+}
+.Extere{
+  background-color: white !important;
+  padding: 3%;
+  text-align-last: center !important;
+display: flex !important;
+justify-content: center !important;
+align-items: center !important;
+align-self: center !important;
+padding-right: -885px;
+flex-direction: column !important;
+justify-content: space-around !important ;
+
+
+} 
+
+
+
+.lenght{
+  min-height: 100vmin;
+  max-height: 100vmax;
+  /* width: 100vh; */
+}
+
+.font{
+  font-size:xx-large;
+  border: 2px solid black;
+  padding: 0px;
+  margin: 0%
+}
+
+.Login{
+  font-size:large;
+color: blue
+}
+
+
+.hidden{
+  display: none;
+}
+th{
+  margin:500px;
+}
+
+
+
+.optain{
+  display: inline-flex;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: nowrap
+}
+
+.Table{
+  border: none;
+  position: relative;
+}
+
+
+.Tr{
+  position: fixed;
+  padding: 10%;
+}
+
+
+.floatLeft{
+  float: right !important;
+}
+
+/* Global */
+
+body {
+  font-family: Verdana, Tahoma, sans-serif;
+  overflow-y: scroll;
+  /* background: url('./images/back.jpg') fixed; */
+}
+
+.container {
+  width: 95% !important;
+  margin: auto;
+  overflow: auto;
+  opacity: 0.85;
+}
+
+.center-box {
+  display: flex;
+  min-height: 75vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Enter Page */
+
+.Enter-Home {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.Enter-Home Button {
+  font-size: 200%;
+}
+
+/* Header */
+
+.header-tag {
+  margin: 10px 0px;
+  font-variant: small-caps;
+  text-shadow: 1px 2px 10px brown;
+  font-weight: bold;
+}
+
+/* Login Page */
+
+.login-main {
+  margin: auto;
+  min-width: fit-content;
+  max-width: 450px;
+}
+
+.login-box {
+  display: flex;
+  justify-content: center;
+  min-height: 100%;
+  margin: 10px auto;
+  max-width: fit-content;
+}
+
+.styling-paper {
+  width: 350px;
+  padding: 15px;
+}
+
+.login-question {
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+}
+
+/* dashboard styling */
+
+.styling-appbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.tab-styling {
+  margin-top: 12px;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.routes-result {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard-paper-width {
+  margin: 5px 0px;
+  max-width: 350px;
+  padding: 15px;
+}
+
+.dashboard-profiles {
+  max-width: fit-content;
+}
+
+.renderTable {
+  /* margin: 10px 20%; */
+  max-width: fit-content;
+  text-align-last:center !important 
+}
+
+.name-styling:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.highlight {
+  color: red;
+  background-color: yellow;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: initial !important;
+  }
+}
